@@ -16,7 +16,7 @@
 @property (nonatomic,strong) SG_AnimationInteractiveTransition * animationTransitionDelegate;
 
 //返回转场的目标视图,某些转场中必须实现这个方法
-- (UIView *)SS_AnimationTransitionTargetView;
-- (void)ss_presentVC:(UIViewController *)viewController type:(KSS_AnimationTransitionType)type;
+- (UIView *)SG_AnimationTransitionTargetView;
+- (void)sg_presentVC:(UIViewController *)viewController type:(KSS_AnimationTransitionType)type;
 
 @end

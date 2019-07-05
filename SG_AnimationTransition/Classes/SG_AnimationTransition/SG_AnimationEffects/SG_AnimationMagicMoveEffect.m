@@ -18,7 +18,7 @@
 }
 
 - (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext{
-    return SS_AnimationTransitionDuration;
+    return SG_AnimationTransitionDuration;
 }
 
 - (void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext{
@@ -41,8 +41,8 @@
     UIView *fromView = fromVC.view;
     UIView *toView = toVC.view;
     
-    UIView *fromTargetView = [fromVC SS_AnimationTransitionTargetView];
-    UIView *toTargetView = [toVC SS_AnimationTransitionTargetView];
+    UIView *fromTargetView = [fromVC SG_AnimationTransitionTargetView];
+    UIView *toTargetView = [toVC SG_AnimationTransitionTargetView];
     
     if (!fromTargetView || !toTargetView) {
         [[transitionContext containerView] addSubview:toView];

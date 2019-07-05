@@ -22,7 +22,7 @@
 
 #pragma mark - targetView
 
-- (UIView *)SS_AnimationTransitionTargetView{
+- (UIView *)SG_AnimationTransitionTargetView{
     return [UIView new];
 }
 

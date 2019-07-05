@@ -50,23 +50,23 @@
     switch (indexPath.row) {
         case 0:{
             CommonMagicMoveAnimationViewController * magicMoveVC = [[CommonMagicMoveAnimationViewController alloc] init];
-            [self.navigationController ss_pushViewController:magicMoveVC type:KAnimationTransitionTypeNone];
+            [self.navigationController sg_pushViewController:magicMoveVC type:KAnimationTransitionTypeNone];
             break;
         }
         case 1:{
             CommonSmoothViewController * smoothVC = [[CommonSmoothViewController alloc] init];
             UINavigationController *naviVC = [[UINavigationController alloc] initWithRootViewController:smoothVC];
-            [self.navigationController ss_presentVC:naviVC type:KAnimationTransitionTypeSmooth];
+            [self.navigationController sg_presentVC:naviVC type:KAnimationTransitionTypeSmooth];
             break;
         }
         case 2:{
             CommonTikTokCommentViewController * commentVC = [[CommonTikTokCommentViewController alloc] init];
-            [self.navigationController ss_pushViewController:commentVC type:KAnimationTransitionTypeNone];
+            [self.navigationController sg_pushViewController:commentVC type:KAnimationTransitionTypeNone];
             break;
         }
         case 3:{
             CommonMaskViewController * maskVC = [[CommonMaskViewController alloc] init];
-            [self.navigationController ss_pushViewController:maskVC type:KAnimationTransitionTypeNone];
+            [self.navigationController sg_pushViewController:maskVC type:KAnimationTransitionTypeNone];
             break;
         }
         default:
@@ -74,7 +74,7 @@
     }
 }
 
-- (UIView *)SS_AnimationTransitionTargetView{
+- (UIView *)SG_AnimationTransitionTargetView{
     return [UIView new];
 }
 

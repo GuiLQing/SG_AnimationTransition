@@ -65,12 +65,12 @@
     self.targetView = cell.bgImageView;
     CommonMagicMoveDetailViewController * detailVC = [[CommonMagicMoveDetailViewController alloc] init];
     detailVC.currentImageName = self.dataSource[indexPath.item];
-    [self.navigationController ss_pushViewController:detailVC type:KAnimationTransitionTypeMagicMove];
+    [self.navigationController sg_pushViewController:detailVC type:KAnimationTransitionTypeMagicMove];
 }
 
 #pragma mark - targetView
 
-- (UIView *)SS_AnimationTransitionTargetView{
+- (UIView *)SG_AnimationTransitionTargetView{
     return self.targetView;
 }
 

@@ -10,15 +10,15 @@
 #define SS_AnimationTransitionConfig_h
 
 //转场动画的时间
-static CGFloat SS_AnimationTransitionDuration = 0.5;
+static CGFloat SG_AnimationTransitionDuration = 0.5;
 //屏幕边缘侧滑手势的移动比例,超出则触发转场
-static CGFloat SS_ScreenEdgePanMoveScale = 0.4;
+static CGFloat SG_ScreenEdgePanMoveScale = 0.4;
 //屏幕边缘侧滑手势的移动速度,超过则触发转场
-static CGFloat SS_ScreenEdgePanMoveVelocity = 1000.0;
+static CGFloat SG_ScreenEdgePanMoveVelocity = 1000.0;
 //页面整体滑动手势的移动比例,超过则触发转场
-static CGFloat SS_PanGestureMoveScale = 0.4;
+static CGFloat SG_PanGestureMoveScale = 0.4;
 //页面整体滑动手势的移动速度,超过则触发转场
-static CGFloat SS_PanGestureMoveVelocity = 1000.0;
+static CGFloat SG_PanGestureMoveVelocity = 1000.0;
 
 typedef NS_ENUM(NSInteger,KSS_AnimationTransitionType){
     KAnimationTransitionTypeNone = 1,       //不自定义动画,使用系统的              -不需要实现SS_AnimationTransitionTargetView

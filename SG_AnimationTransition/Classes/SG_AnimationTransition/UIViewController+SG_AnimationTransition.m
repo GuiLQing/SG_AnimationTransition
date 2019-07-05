@@ -38,12 +38,12 @@ static char * const InteractiveTransitionKey = "InteractiveTransitionKey";
     [self newViewWillAppear:animated];
 }
 
-- (UIView *)SS_AnimationTransitionTargetView{
+- (UIView *)SG_AnimationTransitionTargetView{
     return nil;
 }
 
 
-- (void)ss_presentVC:(UIViewController *)viewController type:(KSS_AnimationTransitionType)type{
+- (void)sg_presentVC:(UIViewController *)viewController type:(KSS_AnimationTransitionType)type{
     if (type == KAnimationTransitionTypeNone) {
         [self none_presentViewController:viewController];
     }else if (type == KAnimationTransitionTypeSmooth) {

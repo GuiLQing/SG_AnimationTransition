@@ -28,7 +28,7 @@
 
 - (IBAction)clickNextButton:(id)sender {
     CommonSmoothViewController * smoothVC = [[CommonSmoothViewController alloc] init];
-    [self.navigationController ss_pushViewController:smoothVC type:KAnimationTransitionTypeSmooth];
+    [self.navigationController sg_pushViewController:smoothVC type:KAnimationTransitionTypeSmooth];
 }
 
 - (void)dealloc{
@@ -37,7 +37,7 @@
 
 #pragma mark - targetView
 
-- (UIView *)SS_AnimationTransitionTargetView{
+- (UIView *)SG_AnimationTransitionTargetView{
     return self.topImageView;
 }
 

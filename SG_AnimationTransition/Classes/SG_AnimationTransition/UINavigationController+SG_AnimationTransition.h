@@ -11,6 +11,6 @@
 
 @interface UINavigationController (SG_AnimationTransition)
 
-- (void)ss_pushViewController:(UIViewController *)viewController type:(KSS_AnimationTransitionType)type;
+- (void)sg_pushViewController:(UIViewController *)viewController type:(KSS_AnimationTransitionType)type;
 
 @end

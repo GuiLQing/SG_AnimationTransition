@@ -23,7 +23,7 @@
 
 - (IBAction)clickCommentButton:(id)sender {
     CommonTikTokDetailViewController * detailVC = [[CommonTikTokDetailViewController alloc] init];
-    [self ss_presentVC:detailVC type:KAnimationTransitionTypeTikTokComment];
+    [self sg_presentVC:detailVC type:KAnimationTransitionTypeTikTokComment];
 }
 
 - (void)didReceiveMemoryWarning {

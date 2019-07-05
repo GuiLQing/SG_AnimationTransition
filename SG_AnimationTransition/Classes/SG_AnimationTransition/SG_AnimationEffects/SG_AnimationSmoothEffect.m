@@ -11,7 +11,7 @@
 @implementation SG_AnimationSmoothEffect
 
 - (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext{
-    return SS_AnimationTransitionDuration;
+    return SG_AnimationTransitionDuration;
 }
 
 - (void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext{

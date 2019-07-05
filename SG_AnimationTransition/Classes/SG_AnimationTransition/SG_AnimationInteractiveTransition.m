@@ -185,10 +185,10 @@
         }
         default:{
             self.isInteractive = NO;
-            if (rate >= SS_ScreenEdgePanMoveScale)
+            if (rate >= SG_ScreenEdgePanMoveScale)
                 [self finishInteractiveTransition];
             else
-                if (velocity > SS_ScreenEdgePanMoveVelocity)
+                if (velocity > SG_ScreenEdgePanMoveVelocity)
                     [self finishInteractiveTransition];
                 else
                     [self cancelInteractiveTransition];

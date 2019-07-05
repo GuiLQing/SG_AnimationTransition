@@ -12,7 +12,7 @@
 
 @implementation UINavigationController (SG_AnimationTransition)
 
-- (void)ss_pushViewController:(UIViewController *)viewController type:(KSS_AnimationTransitionType)type{
+- (void)sg_pushViewController:(UIViewController *)viewController type:(KSS_AnimationTransitionType)type{
     if (type == KAnimationTransitionTypeNone) {
         [self none_pushViewController:viewController];
     }else if (type == KAnimationTransitionTypeSmooth) {

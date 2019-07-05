@@ -18,7 +18,7 @@
 @implementation SG_AnimationMaskEffect
 
 - (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext{
-    return SS_AnimationTransitionDuration;
+    return SG_AnimationTransitionDuration;
 }
 
 - (void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext{
@@ -37,7 +37,7 @@
     UIView *fromView = fromVC.view;
     UIView *toView = toVC.view;
     [transitionContext containerView].backgroundColor = toView.backgroundColor;
-    UIView *fromTargetView = [fromVC SS_AnimationTransitionTargetView];
+    UIView *fromTargetView = [fromVC SG_AnimationTransitionTargetView];
     if (!fromTargetView || ![fromTargetView isKindOfClass:[UIView class]]) {
         [[transitionContext containerView] addSubview:fromView];
         [[transitionContext containerView] addSubview:toView];
@@ -61,7 +61,7 @@
     toView.layer.mask = shapeLayer;
     self.forwardToView = toView;
     CAKeyframeAnimation * keyFrameAnimation = [CAKeyframeAnimation animationWithKeyPath:@"bounds"];
-    keyFrameAnimation.duration = SS_AnimationTransitionDuration;
+    keyFrameAnimation.duration = SG_AnimationTransitionDuration;
     NSValue * startValue = [NSValue valueWithCGRect:CGRectMake(0, 0, fromTargetView.frame.size.width, fromTargetView.frame.size.height)];
     NSValue * finialValue = [NSValue valueWithCGRect:CGRectMake(0, 0, 2000, 2000)];
     keyFrameAnimation.values = @[startValue,finialValue];
@@ -83,7 +83,7 @@
     [transitionContext containerView].backgroundColor = [UIColor whiteColor];
     UIView *fromView = fromVC.view;
     UIView *toView = toVC.view;
-    UIView *toTargetView = [toVC SS_AnimationTransitionTargetView];
+    UIView *toTargetView = [toVC SG_AnimationTransitionTargetView];
     if (!toTargetView || ![toTargetView isKindOfClass:[UIView class]]) {
         [[transitionContext containerView] addSubview:fromView];
         [[transitionContext containerView] addSubview:toView];
@@ -105,7 +105,7 @@
     shapeLayer.position = toTargetView.center;
     fromView.layer.mask = shapeLayer;
     CAKeyframeAnimation * keyFrameAnimation = [CAKeyframeAnimation animationWithKeyPath:@"bounds"];
-    keyFrameAnimation.duration = SS_AnimationTransitionDuration;
+    keyFrameAnimation.duration = SG_AnimationTransitionDuration;
     NSValue * startValue = [NSValue valueWithCGRect:CGRectMake(0, 0, 2000, 2000)];
     NSValue * finialValue = [NSValue valueWithCGRect:CGRectMake(0, 0, toTargetView.frame.size.width, toTargetView.frame.size.height)];
     keyFrameAnimation.values = @[startValue,finialValue];

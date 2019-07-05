@@ -34,17 +34,17 @@
 - (IBAction)clickNextButton:(id)sender {
     _isClickOtherTargetButton = NO;
     CommonMaskDetailViewController * detailVC = [[CommonMaskDetailViewController alloc] init];
-    [self.navigationController ss_pushViewController:detailVC type:KAnimationTransitionTypeMask];
+    [self.navigationController sg_pushViewController:detailVC type:KAnimationTransitionTypeMask];
 }
 
 //点击顶部的"发帖"按钮
 - (IBAction)clickOtherTargetButton:(id)sender {
     _isClickOtherTargetButton = YES;
     CommonMaskDetailViewController * detailVC = [[CommonMaskDetailViewController alloc] init];
-    [self.navigationController ss_pushViewController:detailVC type:KAnimationTransitionTypeMask];
+    [self.navigationController sg_pushViewController:detailVC type:KAnimationTransitionTypeMask];
 }
 
-- (UIView *)SS_AnimationTransitionTargetView{
+- (UIView *)SG_AnimationTransitionTargetView{
     if (_isClickOtherTargetButton) {
         UIImageView * imageView = [[UIImageView alloc] init];
         imageView.image = self.otherTargetButton.imageView.image;
