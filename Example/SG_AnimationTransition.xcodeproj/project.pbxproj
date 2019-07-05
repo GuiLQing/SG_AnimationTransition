@@ -24,6 +24,23 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C553453C18EEDCDB5AF1CECA /* Pods_SG_AnimationTransition_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF35C6125A676593900FA09E /* Pods_SG_AnimationTransition_Example.framework */; };
+		CB4B163822CF780B00870E4B /* CommonSmoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4B161B22CF780B00870E4B /* CommonSmoothViewController.m */; };
+		CB4B163922CF780B00870E4B /* CommonSmoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB4B161C22CF780B00870E4B /* CommonSmoothViewController.xib */; };
+		CB4B163A22CF780B00870E4B /* CommonMaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4B162022CF780B00870E4B /* CommonMaskDetailViewController.m */; };
+		CB4B163B22CF780B00870E4B /* CommonMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4B162222CF780B00870E4B /* CommonMaskViewController.m */; };
+		CB4B163C22CF780B00870E4B /* CommonMaskDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB4B162322CF780B00870E4B /* CommonMaskDetailViewController.xib */; };
+		CB4B163D22CF780B00870E4B /* CommonMaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB4B162422CF780B00870E4B /* CommonMaskViewController.xib */; };
+		CB4B163E22CF780B00870E4B /* CommonMagicMoveAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4B162722CF780B00870E4B /* CommonMagicMoveAnimationViewController.m */; };
+		CB4B163F22CF780B00870E4B /* CommonMagicMoveDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB4B162822CF780B00870E4B /* CommonMagicMoveDetailViewController.xib */; };
+		CB4B164022CF780B00870E4B /* CommonMagicMoveDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4B162922CF780B00870E4B /* CommonMagicMoveDetailViewController.m */; };
+		CB4B164122CF780B00870E4B /* CommonMagicMoveCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4B162A22CF780B00870E4B /* CommonMagicMoveCollectionViewCell.m */; };
+		CB4B164222CF780B00870E4B /* CommonMagicMoveAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB4B162B22CF780B00870E4B /* CommonMagicMoveAnimationViewController.xib */; };
+		CB4B164322CF780B00870E4B /* CommonMagicMoveCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB4B162D22CF780B00870E4B /* CommonMagicMoveCollectionViewCell.xib */; };
+		CB4B164422CF780B00870E4B /* CommonTikTokDetailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4B163022CF780B00870E4B /* CommonTikTokDetailCollectionViewCell.m */; };
+		CB4B164522CF780B00870E4B /* CommonTikTokCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4B163122CF780B00870E4B /* CommonTikTokCommentViewController.m */; };
+		CB4B164622CF780B00870E4B /* CommonTikTokCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB4B163222CF780B00870E4B /* CommonTikTokCommentViewController.xib */; };
+		CB4B164722CF780B00870E4B /* CommonTikTokDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4B163322CF780B00870E4B /* CommonTikTokDetailViewController.m */; };
+		CB4B164822CF780B00870E4B /* CommonTikTokDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB4B163622CF780B00870E4B /* CommonTikTokDetailCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +55,8 @@
 
 /* Begin PBXFileReference section */
 		0C396C252B53BDD1054876D0 /* Pods_SG_AnimationTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SG_AnimationTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		452FA91DC47356840D5102BE /* SG_AnimationTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SG_AnimationTransition.podspec; path = ../SG_AnimationTransition.podspec; sourceTree = "<group>"; };
-		5D94528CF4178F08FF65117C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		452FA91DC47356840D5102BE /* SG_AnimationTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SG_AnimationTransition.podspec; path = ../SG_AnimationTransition.podspec; sourceTree = "<group>"; };
+		5D94528CF4178F08FF65117C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SG_AnimationTransition_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SG_AnimationTransition_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,10 +78,36 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		95EC3E21D7F114D2B59C663D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		95EC3E21D7F114D2B59C663D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A3767489AA874AF74257EA18 /* Pods-SG_AnimationTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SG_AnimationTransition_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SG_AnimationTransition_Tests/Pods-SG_AnimationTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA04EDAE66E6E7B884187735 /* Pods-SG_AnimationTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SG_AnimationTransition_Example.debug.xcconfig"; path = "Target Support Files/Pods-SG_AnimationTransition_Example/Pods-SG_AnimationTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C980AD19A0EC75CBA01B8C24 /* Pods-SG_AnimationTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SG_AnimationTransition_Example.release.xcconfig"; path = "Target Support Files/Pods-SG_AnimationTransition_Example/Pods-SG_AnimationTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CB4B161B22CF780B00870E4B /* CommonSmoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonSmoothViewController.m; sourceTree = "<group>"; };
+		CB4B161C22CF780B00870E4B /* CommonSmoothViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonSmoothViewController.xib; sourceTree = "<group>"; };
+		CB4B161D22CF780B00870E4B /* CommonSmoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonSmoothViewController.h; sourceTree = "<group>"; };
+		CB4B161F22CF780B00870E4B /* CommonMaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMaskViewController.h; sourceTree = "<group>"; };
+		CB4B162022CF780B00870E4B /* CommonMaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMaskDetailViewController.m; sourceTree = "<group>"; };
+		CB4B162122CF780B00870E4B /* CommonMaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMaskDetailViewController.h; sourceTree = "<group>"; };
+		CB4B162222CF780B00870E4B /* CommonMaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMaskViewController.m; sourceTree = "<group>"; };
+		CB4B162322CF780B00870E4B /* CommonMaskDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonMaskDetailViewController.xib; sourceTree = "<group>"; };
+		CB4B162422CF780B00870E4B /* CommonMaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonMaskViewController.xib; sourceTree = "<group>"; };
+		CB4B162622CF780B00870E4B /* CommonMagicMoveCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMagicMoveCollectionViewCell.h; sourceTree = "<group>"; };
+		CB4B162722CF780B00870E4B /* CommonMagicMoveAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMagicMoveAnimationViewController.m; sourceTree = "<group>"; };
+		CB4B162822CF780B00870E4B /* CommonMagicMoveDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonMagicMoveDetailViewController.xib; sourceTree = "<group>"; };
+		CB4B162922CF780B00870E4B /* CommonMagicMoveDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMagicMoveDetailViewController.m; sourceTree = "<group>"; };
+		CB4B162A22CF780B00870E4B /* CommonMagicMoveCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMagicMoveCollectionViewCell.m; sourceTree = "<group>"; };
+		CB4B162B22CF780B00870E4B /* CommonMagicMoveAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonMagicMoveAnimationViewController.xib; sourceTree = "<group>"; };
+		CB4B162C22CF780B00870E4B /* CommonMagicMoveAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMagicMoveAnimationViewController.h; sourceTree = "<group>"; };
+		CB4B162D22CF780B00870E4B /* CommonMagicMoveCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonMagicMoveCollectionViewCell.xib; sourceTree = "<group>"; };
+		CB4B162E22CF780B00870E4B /* CommonMagicMoveDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMagicMoveDetailViewController.h; sourceTree = "<group>"; };
+		CB4B163022CF780B00870E4B /* CommonTikTokDetailCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTikTokDetailCollectionViewCell.m; sourceTree = "<group>"; };
+		CB4B163122CF780B00870E4B /* CommonTikTokCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTikTokCommentViewController.m; sourceTree = "<group>"; };
+		CB4B163222CF780B00870E4B /* CommonTikTokCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonTikTokCommentViewController.xib; sourceTree = "<group>"; };
+		CB4B163322CF780B00870E4B /* CommonTikTokDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTikTokDetailViewController.m; sourceTree = "<group>"; };
+		CB4B163422CF780B00870E4B /* CommonTikTokDetailCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTikTokDetailCollectionViewCell.h; sourceTree = "<group>"; };
+		CB4B163522CF780B00870E4B /* CommonTikTokCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTikTokCommentViewController.h; sourceTree = "<group>"; };
+		CB4B163622CF780B00870E4B /* CommonTikTokDetailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonTikTokDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		CB4B163722CF780B00870E4B /* CommonTikTokDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTikTokDetailViewController.h; sourceTree = "<group>"; };
 		CF35C6125A676593900FA09E /* Pods_SG_AnimationTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SG_AnimationTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7952A9321EEF5EEC44291E0 /* Pods-SG_AnimationTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SG_AnimationTransition_Tests.release.xcconfig"; path = "Target Support Files/Pods-SG_AnimationTransition_Tests/Pods-SG_AnimationTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +175,7 @@
 		6003F593195388D20070C39A /* Example for SG_AnimationTransition */ = {
 			isa = PBXGroup;
 			children = (
+				CB4B161922CF780B00870E4B /* CommonTransitionAnimation */,
 				6003F59C195388D20070C39A /* SGAppDelegate.h */,
 				6003F59D195388D20070C39A /* SGAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,8 +237,72 @@
 				A3767489AA874AF74257EA18 /* Pods-SG_AnimationTransition_Tests.debug.xcconfig */,
 				F7952A9321EEF5EEC44291E0 /* Pods-SG_AnimationTransition_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB4B161922CF780B00870E4B /* CommonTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CB4B161A22CF780B00870E4B /* Smooth */,
+				CB4B161E22CF780B00870E4B /* MaskAnimation */,
+				CB4B162522CF780B00870E4B /* MagicMove */,
+				CB4B162F22CF780B00870E4B /* TikTokComment */,
+			);
+			path = CommonTransitionAnimation;
+			sourceTree = "<group>";
+		};
+		CB4B161A22CF780B00870E4B /* Smooth */ = {
+			isa = PBXGroup;
+			children = (
+				CB4B161B22CF780B00870E4B /* CommonSmoothViewController.m */,
+				CB4B161C22CF780B00870E4B /* CommonSmoothViewController.xib */,
+				CB4B161D22CF780B00870E4B /* CommonSmoothViewController.h */,
+			);
+			path = Smooth;
+			sourceTree = "<group>";
+		};
+		CB4B161E22CF780B00870E4B /* MaskAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CB4B161F22CF780B00870E4B /* CommonMaskViewController.h */,
+				CB4B162022CF780B00870E4B /* CommonMaskDetailViewController.m */,
+				CB4B162122CF780B00870E4B /* CommonMaskDetailViewController.h */,
+				CB4B162222CF780B00870E4B /* CommonMaskViewController.m */,
+				CB4B162322CF780B00870E4B /* CommonMaskDetailViewController.xib */,
+				CB4B162422CF780B00870E4B /* CommonMaskViewController.xib */,
+			);
+			path = MaskAnimation;
+			sourceTree = "<group>";
+		};
+		CB4B162522CF780B00870E4B /* MagicMove */ = {
+			isa = PBXGroup;
+			children = (
+				CB4B162622CF780B00870E4B /* CommonMagicMoveCollectionViewCell.h */,
+				CB4B162722CF780B00870E4B /* CommonMagicMoveAnimationViewController.m */,
+				CB4B162822CF780B00870E4B /* CommonMagicMoveDetailViewController.xib */,
+				CB4B162922CF780B00870E4B /* CommonMagicMoveDetailViewController.m */,
+				CB4B162A22CF780B00870E4B /* CommonMagicMoveCollectionViewCell.m */,
+				CB4B162B22CF780B00870E4B /* CommonMagicMoveAnimationViewController.xib */,
+				CB4B162C22CF780B00870E4B /* CommonMagicMoveAnimationViewController.h */,
+				CB4B162D22CF780B00870E4B /* CommonMagicMoveCollectionViewCell.xib */,
+				CB4B162E22CF780B00870E4B /* CommonMagicMoveDetailViewController.h */,
+			);
+			path = MagicMove;
+			sourceTree = "<group>";
+		};
+		CB4B162F22CF780B00870E4B /* TikTokComment */ = {
+			isa = PBXGroup;
+			children = (
+				CB4B163022CF780B00870E4B /* CommonTikTokDetailCollectionViewCell.m */,
+				CB4B163122CF780B00870E4B /* CommonTikTokCommentViewController.m */,
+				CB4B163222CF780B00870E4B /* CommonTikTokCommentViewController.xib */,
+				CB4B163322CF780B00870E4B /* CommonTikTokDetailViewController.m */,
+				CB4B163422CF780B00870E4B /* CommonTikTokDetailCollectionViewCell.h */,
+				CB4B163522CF780B00870E4B /* CommonTikTokCommentViewController.h */,
+				CB4B163622CF780B00870E4B /* CommonTikTokDetailCollectionViewCell.xib */,
+				CB4B163722CF780B00870E4B /* CommonTikTokDetailViewController.h */,
+			);
+			path = TikTokComment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +366,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,9 +386,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4B163922CF780B00870E4B /* CommonSmoothViewController.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				CB4B163F22CF780B00870E4B /* CommonMagicMoveDetailViewController.xib in Resources */,
+				CB4B164322CF780B00870E4B /* CommonMagicMoveCollectionViewCell.xib in Resources */,
+				CB4B164622CF780B00870E4B /* CommonTikTokCommentViewController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				CB4B164222CF780B00870E4B /* CommonMagicMoveAnimationViewController.xib in Resources */,
+				CB4B163D22CF780B00870E4B /* CommonMaskViewController.xib in Resources */,
+				CB4B163C22CF780B00870E4B /* CommonMaskDetailViewController.xib in Resources */,
+				CB4B164822CF780B00870E4B /* CommonTikTokDetailCollectionViewCell.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,8 +482,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* SGAppDelegate.m in Sources */,
+				CB4B163822CF780B00870E4B /* CommonSmoothViewController.m in Sources */,
+				CB4B164422CF780B00870E4B /* CommonTikTokDetailCollectionViewCell.m in Sources */,
+				CB4B164122CF780B00870E4B /* CommonMagicMoveCollectionViewCell.m in Sources */,
 				6003F5A7195388D20070C39A /* SGViewController.m in Sources */,
+				CB4B164022CF780B00870E4B /* CommonMagicMoveDetailViewController.m in Sources */,
+				CB4B164722CF780B00870E4B /* CommonTikTokDetailViewController.m in Sources */,
+				CB4B163A22CF780B00870E4B /* CommonMaskDetailViewController.m in Sources */,
+				CB4B164522CF780B00870E4B /* CommonTikTokCommentViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				CB4B163E22CF780B00870E4B /* CommonMagicMoveAnimationViewController.m in Sources */,
+				CB4B163B22CF780B00870E4B /* CommonMaskViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface SGViewController : UIViewController
+@interface SGViewController : UITableViewController
 
 @end

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SG_AnimationTransition'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SG_AnimationTransition.'
+  s.version          = '1.0.0'
+  s.summary          = 'SG_AnimationTransition'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,17 +26,9 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'GuiLQing' => 'gui950823@126.com' }
   s.source           = { :git => 'https://github.com/GuiLQing/SG_AnimationTransition.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'SG_AnimationTransition/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SG_AnimationTransition' => ['SG_AnimationTransition/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
