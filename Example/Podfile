@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SG_AnimationTransition_Example' do
+  pod 'SG_AnimationTransition', :path => '../'
+
+  target 'SG_AnimationTransition_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
